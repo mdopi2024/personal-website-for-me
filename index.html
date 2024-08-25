@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More About Me</title>
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon cdn -->
+    <script src="https://kit.fontawesome.com/3de90ef631.js" crossorigin="anonymous"></script>
+</head>
+<body class="font">
+ 
+    <!-- header section here -->
+     <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+             <a class="btn btn-ghost text-xl  text-orange-500  md:text-3xl lg:text-4xl">LOGO</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1  text-gray-700">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>About Me</a></li>
+                <li><a>Profile</a></li>
+                <li><a>Contack Me</a></li>
+              
+              </ul>
+            </div>
+            <div class="navbar-end">
+           <div class="flex items-center gap-5">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a class="btn text-white font-bold bg-orange-600"> Button</a>
+           </div>
+              <!-- dropdown menu -->
+              <div class="dropdown dropdown-end ml-3 ">
+                <div tabindex="0" role="button" class=" m-1 text-3xl lg:hidden "><i class="fa-solid fa-bars"></i></div>
+                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow text-gray-600">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>About Me</a></li>
+                    <li><a>Profile</a></li>
+                    <li><a>Contack Me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+     </header>
+</body>
+</html>
